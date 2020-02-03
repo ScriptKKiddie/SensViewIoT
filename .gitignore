@@ -1,0 +1,8 @@
+﻿*.pyc
+*~
+/.vscode
+__pycache__
+sensviewiot
+db.sqlite3
+/New folder
+.DS_Store

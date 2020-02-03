@@ -1,0 +1,14 @@
+{% load staticfiles %}
+{% load custom_tags %}
+{% load i18n %}
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right"> &copy; 2020 {% website_name %} |
+            <a href="http://www.oneyeartech.com/sensviewiot">{% trans 'SensView IoT' %} </a> |
+            <a href="http://www.twitter.com/ScriptKKiddie">{% trans 'Shobhit Sharma (ScriptKKiddie) on Twitter' %} </a> |
+            <a> Ver: {% version %} | </a>
+            <a href="#">&nbsp;{% trans 'Go upstairs' %}&nbsp;</a>
+        </p>
+    </div>
+</footer>
